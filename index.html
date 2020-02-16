@@ -13,13 +13,17 @@
     <form id="survey-form" >
       Please fill out this form <br>
       <label for="name" id="name-label">Name:</label>
-      <input type="text" id="name" required ><br>
+      <input type="text" id="name" required placeholder="Please enter your name"><br>
 
       <label for="email" id="email-label">Email:</label>
-      <input type="email" id="email" required><br>
+      <input type="email" id="email" required placeholder="Please enter your email"><br>
 
       <label for="number" id="number-label">Number:</label>
-      <input type="number" id="number" min="0" max="9">
+      <input type="number" id="number" min="0" max="9" placeholder="Please enter a number between 0 and 9">
+      <select id="dropdown">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
 
     </form>
 
